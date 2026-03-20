@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git '<your-repo-url>'
+                git branch: 'main', url:'https://github.com/ankit9131yadav-svg/Zero_down_time_project.git'
             }
         }
 
